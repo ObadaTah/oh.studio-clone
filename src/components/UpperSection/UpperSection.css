@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "HelveticaNowDisplay";
+    src: local("HelveticaNowDisplay"),
+        url(./fonts/HelveticaNowDisplay-Bold.woff) format("woff");
+}
+
+.main-paragraph {
+    font-family: "HelveticaNowDisplay";
+    font-size: 4rem;
+    color: rgb(156, 156, 156);
+    line-height: 68px;
+    font-weight: 400;
+    margin-top: 0px;
+    padding: 0px 0px 0px 0px;
+    letter-spacing: -1.5px;
+}
+
+.main-container {
+    max-width: 50%;
+}
