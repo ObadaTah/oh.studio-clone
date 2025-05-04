@@ -1,7 +1,7 @@
 import ClickableFace from "./ClickableFace";
 import ClickableText from "./ClickableText";
 import HapticSVG from "./HapticSVG";
-import imageUrl from "../../assets/nice-photo.jpg";
+import imageUrl from "../../assets/photos/nice-photo.jpg";
 import "./UpperSection.css";
 const UpperSection = () => {
     return (

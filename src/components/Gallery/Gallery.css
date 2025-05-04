@@ -1,0 +1,21 @@
+.gallery-list {
+    display: flex;
+    gap: 4px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+
+    scrollbar-color: rgba(0, 0, 0, 0.4) transparent;
+}
+
+/* WebKit scrollbar */
+.gallery-list::-webkit-scrollbar {
+    height: 4px;
+}
+
+.gallery-list::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
