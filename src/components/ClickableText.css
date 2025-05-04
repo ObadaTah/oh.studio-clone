@@ -1,0 +1,9 @@
+.clickable-text-container {
+    display: inline-block;
+    color: black;
+}
+.clickable-text-container:hover {
+    color: rgb(156, 156, 156);
+    cursor: pointer;
+    /* transition: color 0.2s ease-in-out; */
+}
