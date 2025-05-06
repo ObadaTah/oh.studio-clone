@@ -1,13 +1,18 @@
 import "./App.css";
-import Gallery from "./components/Gallery/Gallery";
-import UpperSection from "./components/UpperSection/UpperSection";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import OhStudio from "./pages/OhStudio";
+import HapticStudio from "./pages/HapticStudio";
 
 function App() {
     return (
-        <div className="App">
-            <UpperSection />
-            <Gallery />
-        </div>
+        <>
+            <BrowserRouter>
+                <Routes>
+                    <Route index element={<OhStudio />} />
+                    <Route path="haptic" element={<HapticStudio />} />
+                </Routes>
+            </BrowserRouter>
+        </>
     );
 }
 

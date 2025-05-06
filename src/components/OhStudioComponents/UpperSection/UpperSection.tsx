@@ -1,8 +1,9 @@
 import ClickableFace from "./ClickableFace";
 import ClickableText from "./ClickableText";
 import HapticSVG from "./HapticSVG";
-import imageUrl from "../../assets/photos/nice-photo.jpg";
+import imageUrl from "/src/assets/photos/nice-photo.jpg";
 import "./UpperSection.css";
+import { Link } from "react-router-dom";
 const UpperSection = () => {
     return (
         <div className="main-container">
@@ -12,7 +13,9 @@ const UpperSection = () => {
                 designer working with startups globally. Currently steering the
                 ship at
                 <HapticSVG />
-                <ClickableText text="Haptic." onClick={() => {}} />
+                <Link to="/haptic">
+                    <ClickableText text="Haptic." onClick={() => {}} />
+                </Link>
             </p>
         </div>
     );
