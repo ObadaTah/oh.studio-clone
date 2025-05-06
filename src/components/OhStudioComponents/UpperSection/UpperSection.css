@@ -1,9 +1,3 @@
-@font-face {
-    font-family: "HelveticaNowDisplay";
-    src: local("HelveticaNowDisplay"),
-        url(./fonts/HelveticaNowDisplay-Bold.woff) format("woff");
-}
-
 .main-paragraph {
     font-family: "HelveticaNowDisplay";
     font-size: 4rem;

@@ -16,13 +16,7 @@ const GalleryItem: React.FC<GalleryItemProps> = ({
 }) => {
     return (
         <div className="gallery-card">
-            <div className="gallery-header">
-                <img src={iconSrc} alt={title} className="gallery-icon" />
-                <div className="gallery-text">
-                    <h4 className="gallery-name">{title}</h4>
-                    <p className="gallery-subtitle-header">{subtitle}</p>
-                </div>
-            </div>
+            {cardHeader(iconSrc, title, subtitle)}
             <div className="gallery-item">
                 {mediaType === "video" ? (
                     <video
@@ -42,3 +36,14 @@ const GalleryItem: React.FC<GalleryItemProps> = ({
 };
 
 export default GalleryItem;
+function cardHeader(iconSrc: string, title: string, subtitle: string) {
+    return (
+        <div className="gallery-header">
+            <img src={iconSrc} alt={title} className="gallery-icon" />
+            <div className="gallery-text">
+                <h4 className="gallery-name">{title}</h4>
+                <p className="gallery-subtitle-header">{subtitle}</p>
+            </div>
+        </div>
+    );
+}

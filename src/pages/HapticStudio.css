@@ -1,0 +1,47 @@
+html {
+    overflow-x: hidden;
+}
+.bottom-container {
+    font-family: "FKRoman";
+    font-weight: 400;
+    font-size: 3em;
+    width: 50%;
+    color: black;
+    line-height: 1em;
+}
+.dot {
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-right: 10px;
+}
+.mini-text {
+    font-family: "SFPRODISPLAYMEDIUM";
+    color: black;
+    font-weight: 400;
+    font-size: 1em;
+    display: inline-block;
+}
+.footer {
+    font-family: "SFPRODISPLAYMEDIUM";
+}
+.footer-link {
+    font-family: "SFPRODISPLAYMEDIUM";
+    color: #808080;
+    list-style: none;
+    font-size: 1em;
+    margin: 5px;
+    padding: 0px;
+    text-decoration: none;
+}
+.footer-link:hover {
+    font-family: "SFPRODISPLAYMEDIUM";
+    color: black;
+    text-decoration: none;
+}
+.grey-logos {
+    filter: grayscale(100%);
+}

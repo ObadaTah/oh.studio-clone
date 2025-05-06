@@ -3,7 +3,7 @@ import UpperSection from "../components/OhStudioComponents/UpperSection/UpperSec
 
 const OhStudio = () => {
     return (
-        <div className="App">
+        <div style={{ margin: "10px" }}>
             <UpperSection />
             <Gallery />
         </div>

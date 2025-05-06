@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "SFPRODISPLAYMEDIUM";
+    src: local("SFPRODISPLAYMEDIUM"),
+        url(/fonts/SFPRODISPLAYMEDIUM.OTF) format("truetype");
+}
+@font-face {
+    font-family: "HelveticaNowDisplay";
+    src: local("HelveticaNowDisplay"),
+        url(./fonts/HelveticaNowDisplay-Bold.woff) format("woff");
+}
+@font-face {
+    font-family: "FKRoman";
+    src: local("FKRoman"), url(/fonts/FKRoman.otf) format("truetype");
+}

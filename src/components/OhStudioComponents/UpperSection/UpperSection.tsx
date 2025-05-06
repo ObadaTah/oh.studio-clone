@@ -1,7 +1,7 @@
 import ClickableFace from "./ClickableFace";
 import ClickableText from "./ClickableText";
 import HapticSVG from "./HapticSVG";
-import imageUrl from "/src/assets/photos/nice-photo.jpg";
+import imageUrl from "/src/assets/images/nice-photo.jpg";
 import "./UpperSection.css";
 import { Link } from "react-router-dom";
 const UpperSection = () => {

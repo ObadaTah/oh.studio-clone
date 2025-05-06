@@ -5,14 +5,12 @@ import HapticStudio from "./pages/HapticStudio";
 
 function App() {
     return (
-        <>
-            <BrowserRouter>
-                <Routes>
-                    <Route index element={<OhStudio />} />
-                    <Route path="haptic" element={<HapticStudio />} />
-                </Routes>
-            </BrowserRouter>
-        </>
+        <BrowserRouter>
+            <Routes>
+                <Route index element={<OhStudio />} />
+                <Route path="haptic" element={<HapticStudio />} />
+            </Routes>
+        </BrowserRouter>
     );
 }
 
